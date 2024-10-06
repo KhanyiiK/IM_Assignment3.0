@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mars Explorer - Design Section</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="script1.js" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="index.html" class="logo-text">MARS EXPLORER</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link active">Design</a></li>
+          <li><a href="references.html" class="nav-link">References</a></li>
+          <li><a href="data-art.html" class="nav-link">Data Art</a></li>
+          <li><a href="theory.html" class="nav-link active">Theory</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="design-section">
+        <h1>Design Choices</h1>
+        <div class="design-content">
+          <h2>Color Palette</h2>
+          <div class="color-palette">
+            <div class="color-item" style="background-color: #0c0c0c">
+              <span>#0c0c0c</span>
+            </div>
+            <div class="color-item" style="background-color: #ff6b6b">
+              <span>#ff6b6b</span>
+            </div>
+            <div class="color-item" style="background-color: #ffffff">
+              <span>#ffffff</span>
+            </div>
+            <div class="color-item" style="background-color: #cccccc">
+              <span>#cccccc</span>
+            </div>
+          </div>
+
+          <h2>Typography</h2>
+          <p>Primary Font: Orbitron</p>
+          <p>Secondary Font: Roboto</p>
+
+          <section id="weather-guide">
+            <h2>Mars Weather Guide</h2>
+            <div class="guide-content">
+              <div class="guide-item">
+                <h3>About This Data</h3>
+                <p>
+                  This website provides the latest weather data from NASA's InSight Mars lander. The data is collected at Elysium Planitia, a flat, smooth plain near Mars' equator.
+                </p>
+                <p>
+                  The InSight lander's weather sensors are part of its Auxiliary Payload Sensor Subsystem (APSS), which helps the mission's primary science goals by monitoring environmental conditions that could affect the lander's seismometer.
+                </p>
+              </div>
+              <div class="guide-item">
+                <h3>Understanding the Terms</h3>
+                <ul>
+                  <li>
+                    <strong>Sol:</strong> A Martian day, which is about 24 hours and 39 minutes long.
+                  </li>
+                  <li>
+                    <strong>Temperature:</strong> Measured in Celsius, showing average, minimum, and maximum for each sol.
+                  </li>
+                  <li>
+                    <strong>Pressure:</strong> Atmospheric pressure on Mars, measured in Pascals (Pa).
+                  </li>
+                  <li>
+                    <strong>Wind Speed:</strong> Measured in meters per second (m/s).
+                  </li>
+                  <li>
+                    <strong>Tau:</strong> A measure of the opacity of the atmosphere due to dust. Higher values indicate more dust in the atmosphere.
+                  </li>
+                </ul>
+              </div>
+              <div class="guide-item">
+                <h3>Reading the Graphs</h3>
+                <p>
+                  Each graph shows data over the last seven sols (Martian days):
+                </p>
+                <ul>
+                  <li>
+                    <strong>Temperature Graph:</strong> The red bars show average temperatures, with error bars indicating the minimum and maximum temperatures for each sol.
+                  </li>
+                  <li>
+                    <strong>Wind Speed Graph:</strong> This graph displays average wind speeds for each sol.
+                  </li>
+                  <li>
+                    <strong>Pressure Graph:</strong> The line graph shows how atmospheric pressure changes over time.
+                  </li>
+                </ul>
+              </div>
+              <div class="guide-item">
+                <h3>Seasonal Changes</h3>
+                <p>
+                  Mars experiences significant seasonal changes due to its tilted axis and elliptical orbit:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Spring:</strong> The polar ice cap begins to sublimate, releasing CO2 into the atmosphere and increasing atmospheric pressure.
+                  </li>
+                  <li>
+                    <strong>Summer:</strong> Warmer temperatures can lead to increased dust activity, sometimes triggering planet-wide dust storms.
+                  </li>
+                  <li>
+                    <strong>Fall:</strong> Temperatures begin to drop, and the atmosphere becomes clearer as dust settles.
+                  </li>
+                  <li>
+                    <strong>Winter:</strong> CO2 begins to freeze out of the atmosphere at the poles, lowering the overall atmospheric pressure.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <h2>Wireframes</h2>
+          <div class="carousel">
+            <div class="carousel__images">
+              <img src="img/1.png" alt="Image 1">
+              <img src="img/2.png" alt="Image 2">
+              <img src="img/3.png" alt="Image 3">
+              <img src="img/4.png" alt="Image 4">
+            </div>
+            <button class="carousel__button previous">&lt;</button>
+            <button class="carousel__button next">&gt;</button>
+          </div>
+          
+          <!-- Second carousel -->
+          <h2>Styleguide</h2>
+          <div class="carousel">
+            <div class="carousel__images">
+              <img src="img/5.png" alt="Image 5">
+              <img src="img/6.png" alt="Image 6">
+              <img src="img/7.png" alt="Image 7">
+              <img src="img/8.png" alt="Image 8">
+              <img src="img/9.png" alt="Image 9">
+            </div>
+            <button class="carousel__button previous">&lt;</button>
+            <button class="carousel__button next">&gt;</button>
+          </div>
+  </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Mars Explorer. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
